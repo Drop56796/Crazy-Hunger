@@ -1,8 +1,3 @@
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Where are you",true)
-wait(4)
-
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("I can see you",true)
-
 local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V1/Source.lua"))()
 
 ---====== Create entity ======---
@@ -40,6 +35,7 @@ local entity = Spawner.createEntity({
 ---====== Debug ======---
 
 entity.Debug.OnEntitySpawned = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Warn/main/Warn.lua"))()
     wait(2) 
     print("Entity has spawned")
 end
