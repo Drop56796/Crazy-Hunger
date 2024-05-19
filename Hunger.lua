@@ -35,7 +35,13 @@ local entity = Spawner.createEntity({
 ---====== Debug ======---
 
 entity.Debug.OnEntitySpawned = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Warn/main/Warn.lua"))()
+    local cue2 = Instance.new("Sound")
+	cue2.Parent = game.Workspace
+	Instance.new = "Spawn"
+	cue2.SoundId = "rbxassetid://9125713501"
+	cue2.Volume = 999999998999
+	cue2.PlaybackSpeed = 0.5
+	cue2:Play()
     wait(2) 
     print("Entity has spawned")
 end
