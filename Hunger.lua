@@ -12,7 +12,7 @@ local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 local entity = spawner.Create({
 	Entity = {
 		Name = "Hungers",
-		Asset = "https://github.com/PABMAXICHAC/doors-monsters-models/blob/main/hunger.rbxm?raw=true",
+		Asset = "https://github.com/catminetry/Hunger-V1/blob/main/Hunger.rbxm?raw=true",
 		HeightOffset = 0
 	},
 	Lights = {
