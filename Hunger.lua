@@ -11,8 +11,8 @@ local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 
 local entity = spawner.Create({
 	Entity = {
-		Name = "Hungers",
-		Asset = "https://github.com/catminetry/Hunger-V1/blob/main/Hunger.rbxm?raw=true",
+		Name = "Hungerd",
+		Asset = "https://github.com/PABMAXICHAC/doors-monsters-models/blob/main/hunger.rbxm",
 		HeightOffset = 0
 	},
 	Lights = {
@@ -29,8 +29,8 @@ local entity = spawner.Create({
 		Values = {1.5, 20, 0.1, 1} -- Magnitude, Roughness, FadeIn, FadeOut
 	},
 	Movement = {
-		Speed = 1500,
-		Delay = 1,
+		Speed = 285,
+		Delay = 2,
 		Reversed = false
 	},
 	Rebounding = {
@@ -53,8 +53,8 @@ local entity = spawner.Create({
 	},
 	Death = {
 		Type = "Guiding", -- "Curious"
-		Hints = {"You die to Hungers", "care about it..", "It is difficult", "Just hide!!"},
-		Cause = "Hungers"
+		Hints = {"You die to hungerd", "care about it..", "It is difficult", "Just hide!!"},
+		Cause = "Hungerd"
 	}
 })
 
